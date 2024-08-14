@@ -2,11 +2,7 @@
 
 Support for streaming reads and writes from and to S3 using Amazon's native API.
 
-![build status](http://img.shields.io/travis/izaakschroeder/s3-streams/master.svg?style=flat)
-![coverage](http://img.shields.io/coveralls/izaakschroeder/s3-streams/master.svg?style=flat)
-![license](http://img.shields.io/npm/l/s3-streams.svg?style=flat)
-![version](http://img.shields.io/npm/v/s3-streams.svg?style=flat)
-![downloads](http://img.shields.io/npm/dm/s3-streams.svg?style=flat)
+Forked from [izaakschroeder/s3-streams](https://github.com/izaakschroeder/s3-streams) for maintenance.
 
 Amazon makes it a giant pain to do anything stream-like when it comes to S3 (given the general restriction that every request needs a `Content-Length` header). We provide native stream classes (both `Readable` and `Writable`) that wrap `aws-sdk` S3 requests and responses to make your life easier.
 
